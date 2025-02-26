@@ -1,9 +1,9 @@
 Package: rectify-gnome-meta
-Version: 1.1
+Version: 1.2
 Section: misc
 Priority: optional
 Architecture: all
-Depends: gnome-core, gnome-terminal, gnome-shell-extension-dashtodock, gnome-shell-extension-desktop-icons-ng, gnome-shell-extension-appindicator, gnome-shell-extension-drive-menu, gnome-shell-extension-places-menu, gnome-shell-extension-workspace-indicator, nautilus-extension-gnome-terminal, gnome-software-plugin-fwupd, gnome-software-plugin-flatpak, gnome-software-plugin-snap, fonts-noto, papirus-icon-theme, adw-gtk3, timeshift, unattended-upgrades, flatpak, snapd, synaptic, firmware-linux, laptop-detect
+Depends: gnome-core, gnome-terminal, gnome-shell-extension-dashtodock, gnome-shell-extension-desktop-icons-ng, gnome-shell-extension-appindicator, gnome-shell-extension-drive-menu, gnome-shell-extension-places-menu, gnome-shell-extension-workspace-indicator, nautilus-extension-gnome-terminal, gnome-software-plugin-fwupd, gnome-software-plugin-flatpak, gnome-software-plugin-snap, fonts-noto, papirus-icon-theme, adw-gtk3, timeshift, unattended-upgrades, flatpak, snapd, synaptic, gdebi, firmware-linux, laptop-detect
 Recommends: 
 Conflicts: gnome-software-plugin-deb
 Maintainer: Jan Biernacik <jan@biernacik.org>
