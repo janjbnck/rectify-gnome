@@ -1,6 +1,6 @@
 [org/gnome/shell]
 enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'ubuntu-appindicators@ubuntu.com', 'ding@rastersoft.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com']
-favorite-apps = ['firefox.desktop', 'nautilus.desktop']
+favorite-apps = ['firefox-esr.desktop', 'nautilus.desktop']
 
 [org/gnome/desktop/interface]
 icon-theme='Papirus'
