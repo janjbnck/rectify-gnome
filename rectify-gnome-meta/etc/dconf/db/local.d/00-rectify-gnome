@@ -1,0 +1,30 @@
+[org/gnome/shell]
+enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'ubuntu-appindicators@ubuntu.com', 'ding@rastersoft.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com']
+favorite-apps = ['firefox.desktop', 'nautilus.desktop']
+
+[org/gnome/desktop/interface]
+icon-theme='Papirus'
+gtk-theme='adw-gtk3'
+
+[org/gnome/shell/extensions/dash-to-dock]
+dock-position='LEFT'
+autohide=false
+dock-fixed=true
+show-trash=false
+show-mounts=false
+extend-height=true
+disable-overview-on-startup=true
+transparency-mode='DYNAMIC'
+custom-theme-shrink=true
+custom-background-color=true
+background-color='#000000'
+
+[org/gnome/desktop/applications/terminal]
+exec='gnome-terminal'
+exec-args=''
+
+[org/gnome/desktop/wm/preferences]
+button-layout=':minimize,maximize,close'
+
+[org/gnome/mutter]
+center-new-windows=true

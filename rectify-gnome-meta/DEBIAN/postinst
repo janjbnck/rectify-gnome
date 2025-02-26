@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+flatpak remote-add --if-not-exists --system flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+snap install snapd
+
+echo "" > /etc/network/interfaces
+dconf update
