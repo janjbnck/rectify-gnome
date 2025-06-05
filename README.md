@@ -2,7 +2,7 @@
 ## Installation
 Run as root:
 ```
-wget https://biernacik.org/rectify-gnome/install.sh
+git clone https://github.com/janjbnck/rectify-gnome.git
 chmod +x install.sh
 bash install.sh
 ```
